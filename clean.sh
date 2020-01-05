@@ -1,3 +1,3 @@
 #!/bin/sh
 
-agens -f clean.sql postgres
+agens -f sql/clean.sql postgres
