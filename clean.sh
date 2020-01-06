@@ -1,3 +1,3 @@
 #!/bin/sh
 
-agens -f sql/clean.sql postgres
+agens -f "$AGENS_IMPORTDATA_CONTAINER_ROOT/sql/clean.sql" postgres
